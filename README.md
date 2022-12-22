@@ -9,6 +9,13 @@ Click on the extension icon and select which online code editor you would want t
 
 <img src="https://i.imgur.com/b6RvpCE.png" width="500">
 
+### Available Online Editors
+
+Provides you with the option to open your GitHub repos in:
+- [GitHub Dev environment](https://github.com/github/dev)
+- [GitHub 1S](https://github.com/conwnet/github1s)
+- [CodeSandbox](https://codesandbox.io/)
+
 ## Installation
 
 ### Only available on chromium-based browsers for now*
