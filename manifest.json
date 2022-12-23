@@ -1,7 +1,7 @@
 {
 	"name": "GitHub Code Editors",
 	"description": "Open GitHub repos in different online code editors",
-	"version": "0.1",
+	"version": "0.2",
 	"author": "Yankee Maharjan",
 	"manifest_version": 3,
 	"permissions": [

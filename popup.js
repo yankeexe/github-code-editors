@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
-  buttons = document.querySelectorAll(".button");
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".button");
   let regex =
     /^https:\/\/(github|githubbox|github1s)\.(com|dev)\/[A-Za-z0-9-_]+\/[A-Za-z0-9-_]+(.*)/;
 
   buttons.forEach((button) => {
-    button.addEventListener("click", function () {
-      chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-        let url = new URL(tabs[0].url);
+    button.addEventListener("click", () => {
+      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        const url = new URL(tabs[0].url);
         if (regex.test(url)) {
           let redirect_url;
           switch (button.value) {
