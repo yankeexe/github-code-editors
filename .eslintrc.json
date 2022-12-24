@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "webextensions": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "script"
+    },
+    "rules": {
+        "no-alert": "error",
+        "no-console": "error"
+    }
+}

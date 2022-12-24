@@ -1,0 +1,12 @@
+{
+    "semi": false,
+    "tabWidth": 2,
+    "overrides": [
+        {
+            "files": ["*.json", "*rc"],
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
