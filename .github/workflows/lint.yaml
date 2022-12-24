@@ -1,0 +1,23 @@
+name: Check Lint and formatting
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+    branches:
+      - "master"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: "Eslint Prettier"
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: "Install dependencies"
+        run: npm install
+      - name: Run linter
+        run: npm run lint && npm run format:check
