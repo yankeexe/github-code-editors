@@ -22,9 +22,9 @@ Provides you with the option to open your GitHub repos in:
 
 1. Clone this repository
 2. Using Chromium based browser, navigate to:
-   -  Chrome: `chrome://extensions`
-   -  Brave: `brave://extensions`
-   -  Edge: `edge://extensions`
+   - Chrome: `chrome://extensions`
+   - Brave: `brave://extensions`
+   - Edge: `edge://extensions`
 3. enable `Developer mode`
 4. Click on the `Load unpacked` button.
 5. Go to the directory where repo was cloned and select it.
