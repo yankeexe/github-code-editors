@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
               redirect_url = `${url.protocol}/github1s.com${url.pathname}`
           }
           chrome.tabs.update({ url: redirect_url })
+          window.close()
         }
       })
     })
