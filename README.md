@@ -32,12 +32,5 @@ Provides you with the option to open your GitHub repos in:
 
 ### Firefox
 
-> **Note**: Unless installed from official Add-Ons page, this step has to be repeated on each browser restart.
+<a href="https://addons.mozilla.org/en-US/firefox/addon/github-code-editors/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get uBlock Origin for Firefox"></a>
 
-> Currently extension is not available on Add-Ons Marketplace.
-
-1. Clone this repository
-2. Go to `about:debugging`
-3. Click on `Load Temporary Add-on`
-4. Go to the directory where repo was cloned and inside the `firefox` directory select `popup.json`.
-5. Open any GitHub repos on the code editor of your choice :zap:
