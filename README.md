@@ -33,4 +33,3 @@ Provides you with the option to open your GitHub repos in:
 ### Firefox
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/github-code-editors/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get uBlock Origin for Firefox"></a>
-
