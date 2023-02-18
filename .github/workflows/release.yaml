@@ -3,15 +3,17 @@ on:
   push:
     tags:
       - "*"
-permissions:
-  contents: write
 jobs:
   release:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      APP_NAME: gh_code_editors
     runs-on: ubuntu-latest
-    name: "Create GH Release"
+    permissions: write-all
+    name: Create GH Release
     steps:
       - uses: actions/checkout@v3
+      - name: Build Artifacts
+        run: ./release.sh
       - name: Create Release
-        run: gh release create ${GITHUB_REF#refs/*/} -t ${GITHUB_REF#refs/*/} --generate-notes
+        run: gh release create ${GITHUB_REF#refs/*/} -t ${GITHUB_REF#refs/*/} $APP_NAME_chrome.zip $APP_NAME_firefox.zip --generate-notes
