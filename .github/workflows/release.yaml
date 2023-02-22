@@ -16,4 +16,4 @@ jobs:
       - name: Build Artifacts
         run: ./release.sh
       - name: Create Release
-        run: gh release create ${GITHUB_REF#refs/*/} -t ${GITHUB_REF#refs/*/} $APP_NAME_chrome.zip $APP_NAME_firefox.zip --generate-notes
+        run: gh release create ${GITHUB_REF#refs/*/} -t ${GITHUB_REF#refs/*/} ${APP_NAME}_chrome.zip ${APP_NAME}_firefox.zip --generate-notes
