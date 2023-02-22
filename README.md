@@ -6,7 +6,7 @@ Open GitHub repos in different online code editors :zap:
 
 Click on the extension icon and select which online code editor you would want to open the current repo:
 
-<img src="https://i.imgur.com/b6RvpCE.png" width="500">
+<img src="https://i.imgur.com/QFsj1CH.png" width="500">
 
 ### Available Online Editors
 
