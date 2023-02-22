@@ -20,6 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             case "GitHub 1s":
               redirect_url = `${url.protocol}/github1s.com${url.pathname}`
+              break
+
+            case "Gitpod":
+              redirect_url = `${url.protocol}/gitpod.io/#${url.href}`
+              break
+
+            case "StackBlitz":
+              redirect_url = `${url.protocol}/stackblitz.com/github/${url.pathname}`
+              break
           }
           chrome.tabs.update({ url: redirect_url })
           window.close()
