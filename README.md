@@ -15,6 +15,8 @@ Provides you with the option to open your GitHub repos in:
 - [GitHub Dev environment](https://github.com/github/dev)
 - [GitHub 1S](https://github.com/conwnet/github1s)
 - [CodeSandbox](https://codesandbox.io/)
+- [Gitpod](https://www.gitpod.io/)
+- [StackBlitz](https://stackblitz.com/)
 
 ## Installation
 
